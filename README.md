@@ -14,15 +14,19 @@ Silakan unduh dan instal software berikut jika belum ada di komputer/server Anda
 1. **Node.js Server:** Berfungsi sebagai mesin utama yang menjalankan Baileys untuk koneksi WhatsApp dan menyediakan API.
 2. **PHP Dashboard:** Berfungsi sebagai antarmuka (UI) untuk melihat status, scan QR code, dan mengirim pesan.
 
-## 2. Cloning repositori ini
+## 2. Struktur Folder.
 
+1. Buat folder baru di dalam C:\xampp\htdocs\ dengan nama wa-gateway.
+2. Buka Terminal (Command Prompt / PowerShell / Terminal di VS Code) dan arahkan ke folder
+```cmd
+> cd C:\xampp\htdocs\wa-gateway\server
+```
+3. clone repositori dengan perintah cmd di bawah ini
 ```cmd
 > git clone https://github.com/muhammadedlinperkasaalam/wa-gateway.git
-> cd wa-gateway
+> cd wa-gateway\server
 ```
-
-Use `code .` to open file in VS Code
-
+4. buka memakai vs code dengan perinta `code .` memakai Terminal (Command Prompt / PowerShell)
 ```cmd
 > code .
 ```
