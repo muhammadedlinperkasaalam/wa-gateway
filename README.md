@@ -17,17 +17,16 @@ Silakan unduh dan instal software berikut jika belum ada di komputer/server Anda
 
 ## 2. Struktur Folder.
 
-1. Buat folder baru di dalam C:\xampp\htdocs\ dengan nama wa-gateway.
-2. Buka Terminal (Command Prompt / PowerShell / Terminal di VS Code) dan arahkan ke folder
+1. Buka Terminal (Command Prompt / PowerShell / Terminal di VS Code) dan arahkan ke folder
 ```cmd
-> cd C:\xampp\htdocs\wa-gateway
+> cd C:\xampp\htdocs\
 ```
-3. clone repositori dengan perintah cmd di bawah ini
+2. clone repositori dengan perintah cmd di bawah ini
 ```cmd
 > git clone https://github.com/muhammadedlinperkasaalam/wa-gateway.git
 > cd server
 ```
-4. Inisialisasi proyek Node.js dan install library yang dibutuhkan:
+3. Inisialisasi proyek Node.js dan install library yang dibutuhkan:
 ```cmd
 > npm init -y
 > npm install @whiskeysockets/baileys pino express cors qrcode
