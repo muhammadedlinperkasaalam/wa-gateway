@@ -19,18 +19,21 @@ Silakan unduh dan instal software berikut jika belum ada di komputer/server Anda
 
 1. Buka Terminal (Command Prompt / PowerShell / Terminal di VS Code) dan arahkan ke folder
 ```cmd
-> cd C:\xampp\htdocs\
+cd C:\xampp\htdocs\
 ```
 2. clone repositori dengan perintah cmd di bawah ini
 ```cmd
-> git clone https://github.com/muhammadedlinperkasaalam/wa-gateway.git
-> cd wa-gateway\server
+git clone https://github.com/muhammadedlinperkasaalam/wa-gateway.git
+```
+buka folder server di terminal
+```cmd
+cd wa-gateway\server
 ```
 3. Inisialisasi proyek Node.js dan install library yang dibutuhkan:
 ```cmd
-> npm init -y
-> npm install @whiskeysockets/baileys pino express cors qrcode
-> npm install -g pm2
+npm init -y
+npm install @whiskeysockets/baileys pino express cors qrcode
+npm install -g pm2
 ```
 (Catatan: pm2 diinstal secara global dengan -g agar bisa digunakan di mana saja)
 ## 3. Cara Menjalankan Agar Terus Online (Tanpa Server Lain)
