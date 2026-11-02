@@ -44,11 +44,11 @@ Syarat agar tidak perlu *hosting* tambahan atau server lain adalah dengan memast
 1. Buka aplikasi **XAMPP Control Panel** dan klik tombol **Start** pada modul **Apache**.
 2. Buka Terminal (Command Prompt) lalu arahkan ke folder server JS Anda:
 ```cmd
-> cd C:\xampp\htdocs\wa-gateway\server
+cd C:\xampp\htdocs\wa-gateway\server
 ```
 3. Gunakan PM2 untuk menjalankan file server.js di background:
 ```cmd
-> pm2 start server.js --name "wagateway"
+pm2 start server.js --name "wagateway"
 ```
 Keuntungan pakai PM2: Meskipun jendela terminal cmd ditutup (di-close), Node.js server tetap akan memproses API dan WhatsApp bot Anda. Jika PC restart, PM2 juga bisa disetting untuk auto-start.
 4. Buka Browser (Chrome/Firefox/Edge) dan akses:
