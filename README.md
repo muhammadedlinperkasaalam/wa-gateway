@@ -1,4 +1,4 @@
-WhatsApp Gateway (Baileys + PHP Native)
+## WhatsApp Gateway (Baileys + PHP Native)
 
 ## 1. Kebutuhan Software & Persiapan
 
