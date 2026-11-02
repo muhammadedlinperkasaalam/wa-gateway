@@ -24,7 +24,7 @@ Silakan unduh dan instal software berikut jika belum ada di komputer/server Anda
 2. clone repositori dengan perintah cmd di bawah ini
 ```cmd
 > git clone https://github.com/muhammadedlinperkasaalam/wa-gateway.git
-> cd server
+> cd wa-gateway\server
 ```
 3. Inisialisasi proyek Node.js dan install library yang dibutuhkan:
 ```cmd
