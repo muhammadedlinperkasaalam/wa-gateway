@@ -1,3 +1,5 @@
+WhatsApp Gateway (Baileys + PHP Native)
+
 ## 1. Kebutuhan Software & Persiapan
 
 Silakan unduh dan instal software berikut jika belum ada di komputer/server Anda:
