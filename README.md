@@ -33,7 +33,7 @@ Silakan unduh dan instal software berikut jika belum ada di komputer/server Anda
 > npm install -g pm2
 ```
 (Catatan: pm2 diinstal secara global dengan -g agar bisa digunakan di mana saja)
-5. Cara Menjalankan Agar Terus Online (Tanpa Server Lain)
+## 3. Cara Menjalankan Agar Terus Online (Tanpa Server Lain)
 Syarat agar tidak perlu *hosting* tambahan atau server lain adalah dengan memastikan XAMPP Apache menyala, dan file Node.js berjalan di latar belakang (background process).
 
 **Langkah-langkah Eksekusi:**
