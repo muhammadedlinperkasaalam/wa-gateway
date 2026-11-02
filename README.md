@@ -19,7 +19,7 @@ Silakan unduh dan instal software berikut jika belum ada di komputer/server Anda
 1. Buat folder baru di dalam C:\xampp\htdocs\ dengan nama wa-gateway.
 2. Buka Terminal (Command Prompt / PowerShell / Terminal di VS Code) dan arahkan ke folder
 ```cmd
-cd C:\xampp\htdocs\wa-gateway
+> cd C:\xampp\htdocs\wa-gateway
 ```
 3. clone repositori dengan perintah cmd di bawah ini
 ```cmd
